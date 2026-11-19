@@ -2,6 +2,10 @@
 
 A Node/Express API for trivia questions that connects to a Neon Postgres database.
 
+## Live Deployment Link
+
+https://assignment-6-vtll.onrender.com/triviabook/topics
+
 ## Database Schema
 
 **topics**
