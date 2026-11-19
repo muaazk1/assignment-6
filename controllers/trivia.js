@@ -3,7 +3,7 @@
   Date: 11.14.2026
   CSC 372-01
 
-  This is the trivia.js page for assignment 6. It contains the controller functions for the Triviabook API. Each function corresponds to a specific route and handles the request, 
+  This is the trivia.js controller page for assignment 6. It contains the controller functions for the Triviabook API. Each function corresponds to a specific route and handles the request, 
   interacts with the model, and sends back a response. The functions include error handling to ensure that appropriate HTTP status codes and messages are returned for various scenarios.
 */
 
@@ -69,7 +69,10 @@ async function getQuestionsByTopicController(req, res, next) {
   }
 }
 
-// Controller that handles GET /triviabook/random
+/*
+  Controller that handles GET /triviabook/random. It retrieves a random question from the database and returns it in the response, 
+  not including the answer in the response.
+ */
 async function getRandomQuestionController(req, res, next) {
   try {
     const question = await getRandomQuestion();
