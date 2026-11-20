@@ -23,7 +23,7 @@ https://assignment-6-vtll.onrender.com/triviabook/topics
 
 1. Clone the repository:
    ```bash
-   git clone <https://github.com/muaazk1/assignment-6.git>
+   git clone https://github.com/muaazk1/assignment-6.git
    cd assignment-6
    ```
 2. Install dependencies:
